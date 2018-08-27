@@ -10,7 +10,7 @@ import net.tinyos.packet.PhoenixSource;
 import net.tinyos.util.PrintStreamMessenger;
 
 public class SerialComunication implements MessageListener {
-	PhoenixSource ps = BuildSource.makePhoenix("serial@/dev/ttyUSB0:telosb", PrintStreamMessenger.out);
+	PhoenixSource ps = BuildSource.makePhoenix("serial@/dev/ttyUSB1:telosb", PrintStreamMessenger.out);
 	MoteIF mote = new MoteIF(ps);
 
 	public SerialComunication() {
