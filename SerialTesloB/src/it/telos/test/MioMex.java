@@ -1,3 +1,4 @@
+package it.telos.test;
 
 public class MioMex extends net.tinyos.message.Message {
 	
